@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundColor": "#0F0F0F"
       },
       "package": "com.gofit.app"
@@ -25,13 +25,7 @@
     "plugins": [
       "expo-router",
       "expo-sqlite",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/notification-icon.png",
-          "color": "#FF6B35"
-        }
-      ]
+      "expo-notifications"
     ],
     "scheme": "gofit",
     "experiments": {
